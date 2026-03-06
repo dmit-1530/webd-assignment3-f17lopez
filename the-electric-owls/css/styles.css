@@ -158,6 +158,107 @@ footer {
 
 /* ***************** Add media query for the 588px screen ***************** */
 
-/* ***************** footer ***************** */
+@media screen and (min-width: 588px) {
 
+    header .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        gap: 2.75rem;
+        display: flex;
+    }
+
+    form label {
+        width: 100%;
+    }
+
+    form div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    form .btn {
+        width: auto;
+    }
+
+    form input[id="email"] {
+        width: 23.9375rem;
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 980px) {
+
+    .full-container {
+        display: flex;
+
+    }
+
+    .full-container section {
+        width: 552px;
+    }
+
+    .btn-center {
+        justify-content: left;
+    }
+
+    footer p{
+        width: 37.5625rem;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        display: flex;
+        align-items:last baseline;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .album, 
+    .tour,
+    aside {
+        width: 522px;
+    }
+
+    form input[id="email"] {
+        width: 21.6875rem;
+        margin-bottom: 0;
+    }
+
+    form div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    form .btn {
+        width: 173px;
+    }
+
+    form label {
+        width: 100%;
+    }
+
+    .btn-center {
+        justify-content: left;
+    }
+
+
+}
+
+/* ***************** footer ***************** */
+footer .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-left: 343px;
+    padding-right: 343px;
+}
 /* ***************** footer ***************** */
